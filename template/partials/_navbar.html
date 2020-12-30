@@ -1,0 +1,159 @@
+<nav class="navbar col-lg-12 col-12 p-0 fixed-top d-flex flex-row">
+      <div class="text-center navbar-brand-wrapper d-flex align-items-center">
+        <div class="d-flex justify-content-between align-items-center">
+          <div>
+            <a class="navbar-brand brand-logo" href="index.html"><img src="images/logo.svg" alt="logo"/></a>
+            <a class="navbar-brand brand-logo-mini" href="index.html"><img src="images/logo-mini.svg" alt="logo"/></a>
+          </div>
+        </div>
+      </div>
+      <div class="navbar-menu-wrapper">
+        <div class="navbar-overlapped d-flex align-items-center justify-content-end justify-content-lg-start">
+          <ul class="navbar-nav navbar-search mr-lg-2">
+            <li class=" d-none d-lg-block">
+              <button class="navbar-toggler align-self-center" type="button" data-toggle="minimize">
+                <span class="icon-menu"></span>
+              </button>
+            </li>
+            <li class="nav-item nav-search d-none d-lg-block">
+              <div class="input-group">
+                <div class="input-group-prepend">
+                  <span class="input-group-text" id="search">
+                    <i class="icon-search"></i>
+                  </span>
+                </div>
+                <input type="text" class="form-control" placeholder="Type to search" aria-label="search" aria-describedby="search">
+              </div>
+            </li>
+          </ul>
+          <ul class="navbar-nav navbar-nav-right">
+            <li class="nav-item dropdown">
+              <a class="nav-link count-indicator dropdown-toggle" id="notificationDropdown" href="#" data-toggle="dropdown">
+                <div class="boxed-item">
+                  <i class="icon-bell mx-0"></i>
+                </div>
+              </a>
+              <div class="dropdown-menu dropdown-menu-right navbar-dropdown preview-list" aria-labelledby="notificationDropdown">
+                <a class="dropdown-item">
+                  <p class="mb-0 font-weight-normal float-left">You have 4 new notifications
+                  </p>
+                  <span class="badge badge-pill badge-warning float-right">View all</span>
+                </a>
+                <div class="dropdown-divider"></div>
+                <a class="dropdown-item preview-item">
+                  <div class="preview-thumbnail">
+                    <div class="preview-icon bg-success">
+                      <i class="mdi mdi-information mx-0"></i>
+                    </div>
+                  </div>
+                  <div class="preview-item-content">
+                    <h6 class="preview-subject font-weight-medium">Application Error</h6>
+                    <p class="font-weight-light small-text mb-0">
+                      Just now
+                    </p>
+                  </div>
+                </a>
+                <div class="dropdown-divider"></div>
+                <a class="dropdown-item preview-item">
+                  <div class="preview-thumbnail">
+                    <div class="preview-icon bg-warning">
+                      <i class="mdi mdi-settings mx-0"></i>
+                    </div>
+                  </div>
+                  <div class="preview-item-content">
+                    <h6 class="preview-subject font-weight-medium">Settings</h6>
+                    <p class="font-weight-light small-text mb-0">
+                      Private message
+                    </p>
+                  </div>
+                </a>
+                <div class="dropdown-divider"></div>
+                <a class="dropdown-item preview-item">
+                  <div class="preview-thumbnail">
+                    <div class="preview-icon bg-info">
+                      <i class="mdi mdi-account-box mx-0"></i>
+                    </div>
+                  </div>
+                  <div class="preview-item-content">
+                    <h6 class="preview-subject font-weight-medium">New user registration</h6>
+                    <p class="font-weight-light small-text mb-0">
+                      2 days ago
+                    </p>
+                  </div>
+                </a>
+              </div>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link count-indicator dropdown-toggle" id="mailDropdown" href="#" data-toggle="dropdown">
+                <div class="boxed-item">
+                  <i class="icon-mail mx-0"></i>
+                  <span class="count"></span>
+                </div>
+              </a>
+              <div class="dropdown-menu dropdown-menu-right navbar-dropdown preview-list" aria-labelledby="mailDropdown">
+                <p class="mb-0 font-weight-normal float-left dropdown-header">Messages</p>
+                <a class="dropdown-item preview-item">
+                  <div class="preview-thumbnail">
+                    <img src="images/faces/face4.jpg" alt="image" class="profile-pic">
+                  </div>
+                  <div class="preview-item-content flex-grow">
+                    <h6 class="preview-subject ellipsis font-weight-normal">David Grey
+                    </h6>
+                    <p class="font-weight-light small-text text-muted mb-0">
+                      The meeting is cancelled
+                    </p>
+                  </div>
+                </a>
+                <a class="dropdown-item preview-item">
+                  <div class="preview-thumbnail">
+                    <img src="images/faces/face2.jpg" alt="image" class="profile-pic">
+                  </div>
+                  <div class="preview-item-content flex-grow">
+                    <h6 class="preview-subject ellipsis font-weight-normal">Tim Cook
+                    </h6>
+                    <p class="font-weight-light small-text text-muted mb-0">
+                      New product launch
+                    </p>
+                  </div>
+                </a>
+                <a class="dropdown-item preview-item">
+                  <div class="preview-thumbnail">
+                    <img src="images/faces/face3.jpg" alt="image" class="profile-pic">
+                  </div>
+                  <div class="preview-item-content flex-grow">
+                    <h6 class="preview-subject ellipsis font-weight-normal"> Johnson
+                    </h6>
+                    <p class="font-weight-light small-text text-muted mb-0">
+                      Upcoming board meeting
+                    </p>
+                  </div>
+                </a>
+              </div>
+            </li>
+            <li class="nav-item dropdown  d-none d-lg-block">
+              <a class="nav-link language-dropdown" id="languageDropdown" href="#" data-toggle="dropdown" aria-expanded="false">
+                <div class="boxed-item  dropdown-toggle">
+                  <i class="flag-icon flag-icon-ai" title="ai" id="ai"></i> <span class="text-dark">Aus</span>
+                </div>
+              </a>
+              <div class="dropdown-menu navbar-dropdown" aria-labelledby="languageDropdown">
+                <a class="dropdown-item" href="#">  <i class="flag-icon flag-icon-fr" title="fr" id="fr"></i> <span class="text-dark">French</span> </a>
+                <a class="dropdown-item" href="#"> <i class="flag-icon flag-icon-us" title="us" id="us"></i> <span class="text-dark">Usa </span></a>
+              </div>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link language-dropdown" id="userDropdown" href="#" data-toggle="dropdown" aria-expanded="false">
+                <img src="images/faces/face1.jpg" class="user-icon">
+              </a>
+              <div class="dropdown-menu navbar-dropdown" aria-labelledby="userDropdown">
+                <a class="dropdown-item" href="#">  <i class="mdi mdi-logout"></i> Logout </a>
+                <a class="dropdown-item" href="#">  <i class="mdi mdi-settings"></i> Settings </a>
+              </div>
+            </li>
+          </ul>
+          <button class="navbar-toggler navbar-toggler-right d-lg-none align-self-center" type="button" data-toggle="offcanvas">
+            <span class="icon-menu"></span>
+          </button>
+        </div>
+      </div>
+    </nav>

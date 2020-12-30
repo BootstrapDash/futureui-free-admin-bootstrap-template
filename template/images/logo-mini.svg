@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="20px" height="21px" viewBox="0 0 20 21" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 61 (89581) - https://sketch.com -->
+    <title>Group 3 Copy</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Future-UI-Dashboard" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Group-3-Copy" transform="translate(-1.000000, -1.000000)">
+            <g id="Group-2">
+                <rect id="Rectangle" fill="#FE8E3C" x="1" y="1" width="6" height="21" rx="3"></rect>
+                <rect id="Rectangle-Copy-3" fill="#801897" transform="translate(11.000000, 15.500000) rotate(65.000000) translate(-11.000000, -15.500000) " x="8" y="5" width="6" height="21" rx="3"></rect>
+                <rect id="Rectangle-Copy-3" fill="#FF2E3F" transform="translate(11.000000, 7.500000) rotate(-65.000000) translate(-11.000000, -7.500000) " x="8" y="-3" width="6" height="21" rx="3"></rect>
+            </g>
+        </g>
+    </g>
+</svg>

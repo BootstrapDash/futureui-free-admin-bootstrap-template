@@ -1,0 +1,20 @@
+/* Alerts */
+.alert {
+  padding: 21px 40px;
+  border-radius: 4px;
+  border: none;
+  h6 {
+    font-weight: 500;
+    margin-bottom: 5px;
+  }
+  p {
+    font-weight: 300;
+    margin-bottom: 0;
+  }
+}
+
+@each $color, $value in $theme-colors {
+  .alert-#{$color} {
+    @include alert-variant(theme-color-level($color, $alert-bg-level), theme-color-level($color, $alert-border-level), theme-color-level($color, $alert-color-level));
+  }
+}

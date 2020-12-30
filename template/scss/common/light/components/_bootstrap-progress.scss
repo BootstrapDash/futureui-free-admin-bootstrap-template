@@ -1,0 +1,28 @@
+/* Bootstrap Progress */
+
+.progress {
+  @include border-radius(3px);
+  height: 8px;
+  .progress-bar {
+    @include border-radius(3px);
+  }
+
+  &.progress-sm{
+    height: 2px;
+  }
+  &.progress-md {
+    height: 8px;
+  }
+  &.progress-lg {
+    height: 15px;
+  }
+  &.progress-xl {
+    height: 18px;
+  }
+}
+@each $color, $value in $theme-colors {
+  .progress-light-#{$color} {
+    @include progress-light-variant($value);
+  }
+}
+
