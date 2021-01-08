@@ -19372,6 +19372,13 @@ code {
   position: fixed;
 }
 
+@media (max-width: 767px) {
+  .doc-table-contents,
+  .doc-header {
+    position: static;
+  }
+}
+
 .doc-header {
   padding-top: 24px;
   padding-bottom: 24px;
@@ -19381,6 +19388,12 @@ code {
 
 .doc-content {
   padding-top: 157px;
+}
+
+@media (max-width: 767px) {
+  .doc-content {
+    padding-top: 15px;
+  }
 }
 
 .doc-table-contents {
@@ -23504,7 +23517,7 @@ dl li {
 }
 
 .auth form .auth-form-btn {
-  height: 50px;
+  height: auto;
   line-height: 1.5;
 }
 

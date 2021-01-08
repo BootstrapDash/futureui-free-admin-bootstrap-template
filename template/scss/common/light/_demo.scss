@@ -227,6 +227,10 @@
 .doc-table-contents,
 .doc-header {
   position: fixed;
+
+  @media (max-width: 767px) {
+    position: static;
+  }
 }
 .doc-header {
   padding-top: 24px;
@@ -237,6 +241,9 @@
 
 .doc-content {
   padding-top: 157px;
+  @media (max-width: 767px) {
+    padding-top: 15px;
+  }
 }
 
 .doc-table-contents {
